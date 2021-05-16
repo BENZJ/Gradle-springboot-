@@ -5,6 +5,9 @@ plugins {
 }
 
 
+jar.enabled = true
+bootJar.enabled = false
+
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.test'
@@ -36,8 +39,4 @@ dependencies {
     testCompile 'org.junit.jupiter:junit-jupiter:5.4.2'
     testRuntimeOnly "org.junit.platform:junit-platform-commons:1.6.0"
     testCompile "org.junit.platform:junit-platform-engine:1.6.0"
-
-    compile project(':demo-web')
-    compile project(':demo-service')
-    
 }
