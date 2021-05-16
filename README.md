@@ -43,3 +43,16 @@
 2. include 
     - 包含的字模块的目录名字
 ### build.gradle
+
+## 附加说明
+### 多模块需要配置setting参数
+"gradle.nestedProjects": true,
+### vscode中的gradle task 
+gradle task  插件要启动必须有一个 gradlew文件。
+需要在setting 配置 
+Java › Import › Gradle: Version
+
+Use Gradle from the specific version if the Gradle wrapper is missing or disabled.
+
+
+> 暂时不清楚这具体配置了说明在gradlew中
