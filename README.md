@@ -44,6 +44,9 @@
     - 包含的字模块的目录名字
 ### build.gradle
 
+## 遇到问问题！！！！
+1. 命令行和vscode自带的gradle总会下载两遍包，是由于GRADLE_USER_HOME vscode setting中配置错误，开始以为是GRADLE_HOME实际上这个表示GRADLE的jar包下载地址 
+
 ## 附加说明
 ### 多模块需要配置setting参数
 "gradle.nestedProjects": true,
